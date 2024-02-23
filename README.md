@@ -25,6 +25,7 @@ Harita dosyasına oda eklerken şu adımları izleyebilirsiniz:
 Her oda için bir satır kullanın.
 Her satırda oda adı, x koordinatı, y koordinatı, genişlik, yükseklik ve engel sayısı sırasıyla virgülle ayrılmış olmalıdır.
 Engellerin koordinatları, oda içindeki konumları olarak belirtilmelidir.
+
 Örnek:
 
 Copy code
