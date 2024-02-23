@@ -27,6 +27,7 @@ Her satırda oda adı, x koordinatı, y koordinatı, genişlik, yükseklik ve en
 Engellerin koordinatları, oda içindeki konumları olarak belirtilmelidir.
 
 Örnek:
+
 Oda1,0,0,5,5,2,1,2,3,4
 
 Oda2,5,0,4,4,1,1,1
