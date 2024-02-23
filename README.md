@@ -11,16 +11,35 @@ Bu proje, bir temizlik robotunun otomatik olarak belirli bir haritayı temizleme
 - Temizlik işlemini başlatma ve durdurma
 - Temizlik raporunu görüntüleme
 
-## Kullanım
+Nasıl Kullanılır?
+Proje dosyalarını bilgisayarınıza indirin.
+Ana dizindeki temizlikrobotu.py dosyasını çalıştırın.
+Program başladığında, temizlik işlemi için bir harita dosyası seçmeniz istenecektir.
+Harita dosyası seçildikten sonra, istenilen temizlik modu, hız seviyesi ve temizlik tipi seçilir.
+"Temizliği Başlat" butonuna tıklanarak temizlik işlemi başlatılır.
+İşlem sırasında "Temizliği Durdur" butonu ile temizlik işlemi durdurulabilir.
+İşlem tamamlandığında "Raporu Göster" butonuna tıklayarak temizlik raporu görüntülenebilir.
+Harita Dosyasına Oda Ekleme
+Harita dosyasına oda eklerken şu adımları izleyebilirsiniz:
 
-1. "Harita dosyasının yolunu giriniz" alanına harita dosyasının yolunu girin.
-2. "Temizlik modunu seçiniz" alanından temizlik modunu (süpürme veya silme) seçin.
-3. "Hız seviyesini seçiniz" alanından temizlik hızını seçin.
-4. "Temizlik tipini seçiniz" alanından tüm odaları temizlemek mi yoksa belirli odaları temizlemek mi istediğinizi seçin.
-5. Belirli odaları temizlemek istiyorsanız, "Temizlemek istediğiniz odaların adlarını aralarında boşluk bırakarak girin" alanına odaların adlarını girin.
-6. "Temizliği Başlat" düğmesine tıklayarak temizlik işlemini başlatın.
-7. "Temizliği Durdur" düğmesiyle temizlik işlemini istediğiniz zaman durdurabilirsiniz.
-8. "Raporu Göster" düğmesiyle temizlik raporunu görüntüleyebilirsiniz.
+Her oda için bir satır kullanın.
+Her satırda oda adı, x koordinatı, y koordinatı, genişlik, yükseklik ve engel sayısı sırasıyla virgülle ayrılmış olmalıdır.
+Engellerin koordinatları, oda içindeki konumları olarak belirtilmelidir.
+Örnek:
+
+Copy code
+Oda1,0,0,5,5,2,1,2,3,4
+Oda2,5,0,4,4,1,1,1
+Oda3,0,5,3,3,0
+Oda4,6,6,4,4,2,2,3,3,2
+Oda5,0,8,3,3,1,1,1
+Oda6,3,3,2,2,0
+Oda7,8,8,3,3,0
+Oda8,2,7,3,3,1,2,2
+Dikkat Edilmesi Gerekenler
+Her satırda doğru sayıda ve doğru sırayla bilgilerin olduğundan emin olun.
+Engellerin, oda sınırları içinde ve birbirleriyle çakışmadan yerleştirildiğinden emin olun.
+
 
 ## Gereksinimler
 
