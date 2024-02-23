@@ -44,6 +44,7 @@ Oda6,3,3,2,2,0
 Oda7,8,8,3,3,0
 
 Oda8,2,7,3,3,1,2,2
+
 Dikkat Edilmesi Gerekenler
 Her satırda doğru sayıda ve doğru sırayla bilgilerin olduğundan emin olun.
 Engellerin, oda sınırları içinde ve birbirleriyle çakışmadan yerleştirildiğinden emin olun.
